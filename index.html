@@ -3,175 +3,213 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>FADI ANIS — Portfolio</title>
-  <meta name="description" content="Portfolio of Fadi Anis — Web Development & AI" />
-  <!-- Google Fonts -->
+  <title>FADI ANIS — Professional Portfolio</title>
+  <meta name="description" content="Khellaf Fadi Aniis — Portfolio & Resume" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
-  <!-- Particles background -->
-  <div id="particles-js" aria-hidden="true"></div>
-
-  <header class="topbar">
-    <div class="brand">
-      <div class="logo">FADI<span class="dot">.</span></div>
-      <div class="brand-text">
-        <div class="name">Khellaf Fadi Aniis</div>
-        <div class="role">Web Developer • AI Enthusiast</div>
+  <div class="page">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">FADI <span class="dot">ANIS</span></div>
+        <div class="sub">Web Development • AI • Game Dev</div>
       </div>
-    </div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact" class="btn">Contact</a>
-    </nav>
-  </header>
+      <nav class="nav">
+        <a href="#profile">Profile</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <main class="container">
-    <!-- Hero -->
-    <section class="hero glass card" id="home">
-      <div class="hero-inner">
-        <div class="hero-content">
-          <div class="kicker">Hello, I'm</div>
-          <h1 class="headline">Fadi <span class="accent">Anis</span></h1>
-          <p class="lead">Second‑year Computer Science student (MIASHS) from Constantine. I build interactive web apps, Python tools & creative technical visuals. Co‑founder & IT Manager at Kaizen Club.</p>
-          <div class="cta">
-            <a href="#projects" class="btn primary">View Projects</a>
-            <a href="#contact" class="btn outline">Get In Touch</a>
+    <main class="container">
+      <section class="intro card" id="profile">
+        <div class="intro-left">
+          <div class="avatar-wrap">
+            <img src="photo_2025-11-24_22-52-37.jpg" alt="Fadi Anis" class="avatar">
           </div>
-          <ul class="quick-stats">
-            <li><strong>Role:</strong> IT Manager — Kaizen Club</li>
-            <li><strong>Interests:</strong> Web Dev, AI, Game Dev</li>
-            <li><strong>Location:</strong> Constantine, Algeria</li>
-          </ul>
-        </div>
-
-        <aside class="hero-aside">
-          <div class="avatar-card glass">
-            <div class="avatar-wrap">
-              <img src="photo_2025-11-24_22-52-37.jpg" alt="Fadi Anis avatar" class="avatar">
-            </div>
-            <div class="avatar-meta">
-              <div class="name">Fadi Anis</div>
-              <div class="title">IT Manager — Kaizen Club</div>
-              <div class="links">
-                <a href="https://github.com/ItsFGD" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/fadi-anis-khellaf-76b342198/" target="_blank">LinkedIn</a>
-              </div>
+          <div class="info-card">
+            <h2>Khellaf Fadi Aniis</h2>
+            <p class="role">IT Manager • Co‑Founder — Kaizen Club</p>
+            <ul class="personal-list">
+              <li><strong>Display / Logo:</strong> FADI ANIS</li>
+              <li><strong>Nationality / City:</strong> Algeria — Constantine</li>
+              <li><strong>Email:</strong> <a href="mailto:fadianis.khellaf@univ-constantine2.dz">fadianis.khellaf@univ-constantine2.dz</a></li>
+              <li><strong>Phone:</strong> +213 798797913</li>
+              <li><strong>Links:</strong> <a href="https://github.com/ItsFGD" target="_blank">GitHub</a> • <a href="https://www.linkedin.com/in/fadi-anis-khellaf-76b342198/" target="_blank">LinkedIn</a></li>
+            </ul>
+            <div class="download-actions">
+              <button id="downloadCv" class="btn primary">Download CV (PDF)</button>
+              <a href="#contact" class="btn outline">Contact</a>
             </div>
           </div>
+        </div>
+        <div class="intro-right">
+          <h1>Career Objective</h1>
+          <p class="lead">My goal is to develop my skills in Web Development and Artificial Intelligence, and to obtain internship or job opportunities in innovative technical projects that allow me to apply and enhance my skills continuously, contributing to building effective and impactful digital solutions.</p>
 
-          <div class="skill-bubbles">
-            <span>Python</span><span>HTML</span><span>CSS</span><span>Design</span><span>AI Tools</span>
+          <h2>Profile Summary</h2>
+          <p>I am a second-year student pursuing a Professional Bachelor’s degree (Licence Professionnelle) in Mathematics and Informatics (MI), specialized in MIASHS (Mathematics and Informatics Applied to Social and Human Sciences) at Abdelhamid Mehri University — Constantine 2.</p>
+          <p>I co-founded and serve as IT Manager at Kaizen Club, where I contribute to technical projects, event organization, and visual design. I have practical experience in programming, web development, graphic design, and basic information security. I participated in CodeAvour, StartUp Competition, WEBXPO, and Constantic.</p>
+
+          <div class="tags">
+            <span>Python</span><span>HTML</span><span>CSS</span><span>Design</span><span>AI Tools</span><span>Pygame</span>
           </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section class="card glass" id="about">
-      <h2 class="section-title">About Me</h2>
-      <p>I am a dedicated student focused on Web Development and Artificial Intelligence. I enjoy building useful digital solutions, designing visuals for events, and participating in tech communities. I'm eager for internships and collaborative projects.</p>
-      <div class="two-col">
-        <ul class="info-list">
-          <li><strong>Email:</strong> <a href="mailto:fadianis.khellaf@univ-constantine2.dz">fadianis.khellaf@univ-constantine2.dz</a></li>
-          <li><strong>Phone:</strong> +213 798797913</li>
-          <li><strong>University:</strong> Abdelhamid Mehri — Constantine 2</li>
-          <li><strong>Languages:</strong> Arabic (Native), English (B2), French</li>
-        </ul>
-        <div class="edu-list">
-          <h3>Education</h3>
-          <ul>
-            <li>2025–2026 — 2nd Year — Licence Professionnelle (MIASHS)</li>
-            <li>2024–2025 — 1st Year — MIASHS</li>
-            <li>Baccalaureate — Experimental Sciences</li>
-          </ul>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Skills -->
-    <section class="card glass" id="skills">
-      <h2 class="section-title">Skills & Tools</h2>
-      <div class="skills-grid">
-        <div class="skill">
-          <h4>Programming</h4>
-          <div class="pbar"><span style="width:75%">Python — Intermediate</span></div>
-          <div class="pbar"><span style="width:65%">HTML — Intermediate</span></div>
-          <div class="pbar"><span style="width:45%">CSS — Basic</span></div>
-        </div>
-        <div class="skill">
-          <h4>Tools</h4>
-          <ul>
-            <li>VS Code</li><li>Photoshop</li><li>Canva</li><li>Git & GitHub</li>
-          </ul>
-        </div>
-        <div class="skill">
-          <h4>Other</h4>
-          <ul>
-            <li>Game Dev (Pygame)</li><li>AI Tools</li><li>Design & Visuals</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      <section class="timeline card" id="timeline">
+        <h2 class="section-title">Education & Experience — Timeline</h2>
+        <div class="timeline-grid">
+          <div class="timeline-line" aria-hidden="true"></div>
 
-    <!-- Projects -->
-    <section class="card glass" id="projects">
-      <h2 class="section-title">Selected Projects</h2>
-      <div class="projects-grid">
-        <article class="project">
-          <h3>Portfolio Website</h3>
-          <p>Personal portfolio built to present projects, skills and contact info.</p>
-          <p class="muted">GitHub: <a href="https://github.com/ItsFGD" target="_blank">ItsFGD</a></p>
-        </article>
-
-        <article class="project">
-          <h3>Python Games (Pygame)</h3>
-          <p>Snake, Pac‑Man and other small games with scoring and level systems.</p>
-          <p class="muted">Repo: <a href="https://github.com/ItsFGD" target="_blank">ItsFGD</a></p>
-        </article>
-
-        <article class="project">
-          <h3>Graphic Design — Kaizen Club</h3>
-          <p>Event posters and promotional materials created with Photoshop & Canva.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="card glass" id="contact">
-      <h2 class="section-title">Contact</h2>
-      <p>If you have internship offers or collaboration ideas, please get in touch.</p>
-      <div class="contact-grid">
-        <div>
-          <p><strong>Email:</strong> <a href="mailto:fadianis.khellaf@univ-constantine2.dz">fadianis.khellaf@univ-constantine2.dz</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/ItsFGD" target="_blank">ItsFGD</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fadi-anis-khellaf-76b342198/" target="_blank">Fadi Anis</a></p>
-        </div>
-        <form id="contactForm" class="contact-form">
-          <label><span>Name</span><input type="text" name="name" required></label>
-          <label><span>Email</span><input type="email" name="email" required></label>
-          <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
-          <div class="form-actions">
-            <button type="submit" class="btn primary">Send Message</button>
-            <button type="reset" class="btn">Reset</button>
+          <div class="timeline-item left">
+            <div class="time">2022–2024</div>
+            <div class="card-content">
+              <h3>Baccalaureate — Experimental Sciences</h3>
+              <p>Ratings across years: 2022 (Acceptable), 2023 (Good), 2024 (Near Good).</p>
+            </div>
           </div>
-        </form>
-      </div>
-    </section>
 
-    <footer class="card footer glass">
-      <div>© 2025 Khellaf Fadi Aniis — Built with care</div>
-      <div class="footer-links"><a href="#home">Top</a> • <a href="#contact">Contact</a></div>
-    </footer>
-  </main>
+          <div class="timeline-item right">
+            <div class="time">2024–2025</div>
+            <div class="card-content">
+              <h3>1st Year — Licence Professionnelle (MIASHS)</h3>
+              <p>Foundations in mathematics, programming, and applied informatics.</p>
+            </div>
+          </div>
 
-  <!-- Libraries: GSAP + particles.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+          <div class="timeline-item left">
+            <div class="time">2025–2026</div>
+            <div class="card-content">
+              <h3>2nd Year — Licence Professionnelle (MIASHS)</h3>
+              <p>Continuing specialization in applied informatics and AI tools.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="time">2024–2025</div>
+            <div class="card-content">
+              <h3>IT Manager — Kaizen Club</h3>
+              <p>Supervised technical activities, developed digital projects, designed visual materials, and managed workshops and student teams.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="time">Events</div>
+            <div class="card-content">
+              <h3>Participation in Major Tech Events</h3>
+              <p>CodeAvour, StartUp Competition, WEBXPO, Constantic — strengthened technical skills and teamwork.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-projects card" id="projects">
+        <div class="left-col">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skill-list">
+            <div class="skill-row"><div class="skill-name">Python</div><div class="skill-bar"><div style="width:78%"></div></div></div>
+            <div class="skill-row"><div class="skill-name">HTML</div><div class="skill-bar"><div style="width:70%"></div></div></div>
+            <div class="skill-row"><div class="skill-name">CSS</div><div class="skill-bar"><div style="width:50%"></div></div></div>
+            <div class="tools">
+              <h4>Tools & Software</h4>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>Adobe Photoshop</li>
+                <li>Canva</li>
+                <li>CapCut</li>
+                <li>GitHub</li>
+                <li>Microsoft Office</li>
+                <li>AI Tools (Advanced usage)</li>
+              </ul>
+            </div>
+
+            <div class="soft-skills">
+              <h4>Soft Skills</h4>
+              <ul>
+                <li>Problem Solving</li>
+                <li>Teamwork & Collaboration</li>
+                <li>Effective Communication</li>
+                <li>Time Management</li>
+                <li>Creativity</li>
+                <li>Adaptability</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-col">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Portfolio Website</h3>
+              <p>Personal website showcasing skills and projects, developed with HTML & CSS. Repo on GitHub.</p>
+            </article>
+
+            <article class="project-card">
+              <h3>Python Games (Pygame)</h3>
+              <p>Snake, Pac‑Man style games with scoring systems and levels. Code available on GitHub.</p>
+            </article>
+
+            <article class="project-card">
+              <h3>Graphic Design — Kaizen Club</h3>
+              <p>Posters and promotional designs using Photoshop and Canva.</p>
+            </article>
+
+            <article class="project-card">
+              <h3>Mini Python Tools</h3>
+              <p>Small utilities for calculations and helpers—practice projects uploaded to GitHub.</p>
+            </article>
+          </div>
+
+          <h3>Certifications & Courses</h3>
+          <ul class="certs">
+            <li>English Level B2 Certificate</li>
+            <li>Python Basics — Coursera</li>
+            <li>Git & GitHub Essentials — Udemy</li>
+            <li>Web Development Fundamentals — FreeCodeCamp</li>
+            <li>AI Tools Productivity Workshop — Online</li>
+          </ul>
+
+          <h3>Languages</h3>
+          <p>Arabic (Native) • English (B2) • French</p>
+
+          <h3>Interests</h3>
+          <p>Web Development • Artificial Intelligence • Game Development • Open‑Source • Tech Communities</p>
+        </div>
+      </section>
+
+      <section class="contact card" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>If you have internship offers or collaboration ideas, please reach out.</p>
+        <div class="contact-grid">
+          <div>
+            <p><strong>Email:</strong> <a href="mailto:fadianis.khellaf@univ-constantine2.dz">fadianis.khellaf@univ-constantine2.dz</a></p>
+            <p><strong>Phone:</strong> +213 798797913</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/ItsFGD" target="_blank">ItsFGD</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fadi-anis-khellaf-76b342198/" target="_blank">Fadi Anis</a></p>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <label><span>Name</span><input type="text" name="name" required></label>
+            <label><span>Email</span><input type="email" name="email" required></label>
+            <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>© 2025 Khellaf Fadi Aniis — All rights reserved</div>
+        <div class="small-links"><a href="#profile">Profile</a> • <a href="#contact">Contact</a></div>
+      </footer>
+    </main>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
